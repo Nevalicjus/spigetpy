@@ -8,7 +8,7 @@ async def spiget_request(type: str, url: str, headers: dict = None, params: dict
     base_url = "https://api.spiget.org/v2/"
 
     base_headers = {
-        "user-agent": "spyget/0.1"
+        "user-agent": "spigetpy/0.1"
     }
     if headers != None:
         base_headers.update(headers)
